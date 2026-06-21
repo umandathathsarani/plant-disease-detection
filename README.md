@@ -1,15 +1,15 @@
 # 🌿 Plant Disease Detection & Diagnosis System
 
-### Enterprise-Grade Deep Learning Pipeline & Web Application
+### Deep Learning-Powered Plant Disease Classification and Treatment Recommendation Web Application
 
-> An end-to-end Artificial Intelligence system that identifies plant diseases from leaf images and provides instant treatment recommendations using a fine-tuned ResNet18 Convolutional Neural Network (CNN), FastAPI backend, and interactive web interface.
+> An end-to-end Artificial Intelligence system that identifies plant diseases from leaf images and provides treatment recommendations using a fine-tuned ResNet18 Convolutional Neural Network (CNN), a FastAPI backend, and a responsive web interface.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Completed-success">
   <img src="https://img.shields.io/badge/Python-3.11+-blue">
-  <img src="https://img.shields.io/badge/PyTorch-2.x-red">
-  <img src="https://img.shields.io/badge/FastAPI-Latest-green">
-  <img src="https://img.shields.io/badge/CNN-ResNet18-orange">
+  <img src="https://img.shields.io/badge/PyTorch-Deep%20Learning-red">
+  <img src="https://img.shields.io/badge/FastAPI-Backend-green">
+  <img src="https://img.shields.io/badge/ResNet18-CNN-orange">
   <img src="https://img.shields.io/badge/Dataset-PlantVillage-brightgreen">
   <img src="https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS%20%7C%20JavaScript-yellow">
   <img src="https://img.shields.io/badge/License-MIT-purple">
@@ -19,21 +19,52 @@
 
 ## 📖 Overview
 
-Plant diseases are one of the leading causes of agricultural losses worldwide. Early detection can significantly reduce crop damage and improve productivity.
+Plant diseases significantly impact agricultural productivity and food security worldwide. Early disease detection enables farmers and agricultural professionals to take preventive measures before diseases spread and cause severe crop losses.
 
-This project presents a complete Deep Learning-powered Plant Disease Detection and Diagnosis System capable of classifying plant diseases from leaf images and providing actionable treatment recommendations.
+This project demonstrates a complete Computer Vision and Deep Learning pipeline capable of classifying plant diseases from leaf images and providing corresponding treatment recommendations.
 
-The system leverages Transfer Learning using ResNet18 trained on the PlantVillage dataset, enabling accurate predictions while maintaining computational efficiency.
+The application combines Machine Learning, Backend Development, and Frontend Development into a single deployable solution.
 
-The project demonstrates the complete machine learning lifecycle:
+### Key Objectives
 
-* Data Exploration
-* Data Preprocessing
-* Model Training
-* Model Evaluation
-* Model Deployment
-* Real-Time Inference
-* Web Application Integration
+* Detect plant diseases from leaf images.
+* Provide real-time predictions.
+* Offer treatment recommendations.
+* Demonstrate Transfer Learning with ResNet18.
+* Deploy a trained deep learning model using FastAPI.
+* Build an interactive web-based user experience.
+
+---
+
+## 🎯 Project Highlights
+
+### Artificial Intelligence
+
+* Deep Learning-based image classification.
+* Transfer Learning using ResNet18.
+* Plant disease recognition from leaf images.
+* Real-time model inference.
+
+### Backend Development
+
+* REST API built with FastAPI.
+* Image upload handling.
+* Prediction endpoint implementation.
+* Lightweight deployment architecture.
+
+### Frontend Development
+
+* Responsive user interface.
+* Dynamic Hogwarts-inspired themes.
+* Real-time prediction workflow.
+* Interactive user experience.
+
+### Software Engineering
+
+* Modular project structure.
+* Git version control.
+* Reproducible machine learning workflow.
+* Documentation and deployment support.
 
 ---
 
@@ -41,19 +72,18 @@ The project demonstrates the complete machine learning lifecycle:
 
 * Overview
 * Features
-* Project Highlights
 * Machine Learning Pipeline
 * System Architecture
 * Dataset
-* Supported Diseases
 * Technology Stack
 * Project Structure
 * Installation
 * Running the Application
 * API Documentation
 * User Interface
+* Screenshots
 * Model Information
-* Future Improvements
+* Project Status
 * Author
 * License
 
@@ -63,70 +93,41 @@ The project demonstrates the complete machine learning lifecycle:
 
 ## 🔍 Disease Detection
 
-* Upload leaf images for instant disease analysis
-* Detect healthy and diseased plants
-* Real-time predictions
-* Confidence-based classification
+* Upload plant leaf images.
+* Classify healthy and diseased plants.
+* Generate predictions in real time.
+* Display confidence-based results.
 
-## 🧠 Deep Learning Powered
+## 🧠 Deep Learning Model
 
-* ResNet18 Convolutional Neural Network
-* Transfer Learning approach
-* Optimized inference performance
-* High accuracy classification
-
-## ⚡ FastAPI Backend
-
-* Lightweight REST API
-* Fast prediction response times
-* Production-ready deployment architecture
+* ResNet18 architecture.
+* Transfer Learning approach.
+* Optimized for efficient inference.
+* Trained using the PlantVillage dataset.
 
 ## 💊 Treatment Recommendations
 
-* Disease-specific management strategies
-* Preventive actions
-* Treatment suggestions
+* Disease-specific guidance.
+* Suggested management practices.
+* Preventive recommendations.
+
+## ⚡ FastAPI Backend
+
+* Lightweight REST API.
+* Fast response times.
+* Easy deployment.
 
 ## 🎨 Interactive User Interface
 
-* Responsive design
-* Dynamic Hogwarts-themed styling
-* Smooth animations
-* Mobile-friendly layout
-
----
-
-# 🎯 Project Highlights
-
-### Machine Learning
-
-✔ Transfer Learning using ResNet18
-
-✔ Multi-class Image Classification
-
-✔ Image Preprocessing Pipeline
-
-✔ Data Augmentation Techniques
-
-✔ Real-Time Inference
-
-### Software Engineering
-
-✔ FastAPI REST API
-
-✔ Frontend-Backend Integration
-
-✔ Modular Project Structure
-
-✔ Git Version Control
-
-✔ Production-Oriented Design
+* Mobile-friendly design.
+* Theme customization.
+* Hogwarts-inspired visual styles.
 
 ---
 
 # 🔄 Machine Learning Pipeline
 
-The project follows a complete end-to-end machine learning workflow.
+The project follows a complete machine learning workflow from data exploration to deployment.
 
 ```text
 PlantVillage Dataset
@@ -135,13 +136,10 @@ PlantVillage Dataset
 Data Exploration
         │
         ▼
-Data Cleaning
+Data Preprocessing
         │
         ▼
 Data Augmentation
-        │
-        ▼
-Image Preprocessing
         │
         ▼
 Transfer Learning
@@ -172,7 +170,7 @@ User Uploads Leaf Image
             │
             ▼
 Frontend Interface
-(HTML/CSS/JS)
+(HTML/CSS/JavaScript)
             │
             ▼
 FastAPI Backend
@@ -190,46 +188,27 @@ Disease Prediction
 Treatment Recommendation
             │
             ▼
-Results Displayed
+Results Displayed to User
 ```
 
 ---
 
 # 🌱 Dataset
 
-The model is trained using the PlantVillage dataset, a publicly available benchmark dataset for plant disease classification.
+This project uses the PlantVillage Dataset, a widely used benchmark dataset for plant disease classification.
 
 ### Dataset Characteristics
 
 | Property      | Value                      |
 | ------------- | -------------------------- |
 | Dataset       | PlantVillage               |
-| Task          | Multi-Class Classification |
-| Input Type    | RGB Images                 |
 | Domain        | Agriculture                |
+| Task          | Multi-Class Classification |
 | Learning Type | Supervised Learning        |
-| Model         | ResNet18                   |
+| Input         | RGB Images                 |
+| Framework     | PyTorch                    |
 
-The dataset contains thousands of labeled plant leaf images representing healthy and diseased conditions.
-
----
-
-# 🍃 Supported Plant Conditions
-
-The model can classify multiple plant conditions including:
-
-* Healthy Leaves
-* Early Blight
-* Late Blight
-* Bacterial Spot
-* Leaf Mold
-* Septoria Leaf Spot
-* Target Spot
-* Mosaic Virus
-* Yellow Leaf Curl Virus
-* Powdery Mildew
-
-and additional disease categories included in the training dataset.
+The dataset contains labeled images of healthy and diseased plant leaves used to train and evaluate the model.
 
 ---
 
@@ -292,7 +271,10 @@ plant-disease-detection
 │   ├── 02_model_training.ipynb
 │   └── 03_real_time_detection.ipynb
 │
-├── .gitignore
+├── LICENSE
+├── CONTRIBUTING.md
+├── CHANGELOG.md
+├── MODEL_CARD.md
 ├── requirements.txt
 └── README.md
 ```
@@ -301,38 +283,38 @@ plant-disease-detection
 
 # 📚 Notebook Workflow
 
-## 00_eda_visualization.ipynb
+### 00_eda_visualization.ipynb
 
 * Dataset exploration
 * Class distribution analysis
 * Data visualization
 * Sample image inspection
 
-## 01_data_preprocessing.ipynb
+### 01_data_preprocessing.ipynb
 
-* Image resizing
-* Normalization
+* Image preprocessing
+* Data normalization
 * Data augmentation
 * Dataset preparation
 
-## 02_model_training.ipynb
+### 02_model_training.ipynb
 
 * Transfer learning implementation
 * ResNet18 fine-tuning
-* Training and validation
-* Model evaluation
+* Model training
+* Validation and evaluation
 
-## 03_real_time_detection.ipynb
+### 03_real_time_detection.ipynb
 
 * Model loading
 * Prediction testing
-* Real-time inference validation
+* Inference validation
 
 ---
 
 # 🚀 Installation
 
-## Clone Repository
+## Clone the Repository
 
 ```bash
 git clone https://github.com/umandathathsarani/plant-disease-detection.git
@@ -342,7 +324,7 @@ cd plant-disease-detection
 
 ---
 
-## Create Virtual Environment
+## Create a Virtual Environment
 
 ### Windows
 
@@ -372,7 +354,7 @@ pip install -r requirements.txt
 
 # ▶️ Running the Application
 
-## Start FastAPI Server
+## Start the FastAPI Server
 
 ```bash
 cd app
@@ -380,7 +362,7 @@ cd app
 uvicorn main:app --reload
 ```
 
-Server:
+The server will run locally at:
 
 ```text
 http://127.0.0.1:8000
@@ -388,15 +370,15 @@ http://127.0.0.1:8000
 
 ---
 
-## Open Frontend
+## Launch the Frontend
 
-Simply open:
+Open:
 
 ```text
 app/index.html
 ```
 
-in your web browser.
+in your browser.
 
 ---
 
@@ -404,9 +386,9 @@ in your web browser.
 
 ## POST /predict
 
-Upload a leaf image and receive a disease prediction.
+Accepts a plant leaf image and returns a prediction result.
 
-### Sample Response
+### Example Response
 
 ```json
 {
@@ -420,47 +402,27 @@ Upload a leaf image and receive a disease prediction.
 
 # 🎨 User Interface
 
-The application includes a unique Hogwarts-inspired theme system.
+The application includes a customizable Hogwarts-inspired theme system.
 
-## 🏰 Hogwarts Theme
+### 🏰 Hogwarts
 
-Default magical theme.
+Default application theme.
 
-```html
-assets/theme-hogwarts.png
-```
-
-## 🦁 Gryffindor Theme
+### 🦁 Gryffindor
 
 Inspired by bravery and courage.
 
-```html
-assets/theme-gryffindor.png
-```
-
-## 🐍 Slytherin Theme
+### 🐍 Slytherin
 
 Inspired by ambition and leadership.
 
-```html
-assets/theme-slytherin.png
-```
-
-## 🦅 Ravenclaw Theme
+### 🦅 Ravenclaw
 
 Inspired by wisdom and creativity.
 
-```html
-assets/theme-ravenclaw.png
-```
+### 🦡 Hufflepuff
 
-## 🦡 Hufflepuff Theme
-
-Inspired by loyalty and hard work.
-
-```html
-assets/theme-hufflepuff.png
-```
+Inspired by loyalty and dedication.
 
 ---
 
@@ -502,29 +464,30 @@ assets/theme-hufflepuff.png
 
 ---
 
-# 🚧 Future Improvements
+# ✅ Project Status
 
-* Mobile Application Development
-* Cloud Deployment
-* Docker Containerization
-* CI/CD Integration
-* Explainable AI Visualizations (Grad-CAM)
-* Additional Plant Species Support
-* Disease Severity Detection
-* Offline Prediction Capability
-* Multi-Language Support
+**Status:** Completed
+
+This project is currently maintained as a portfolio project demonstrating:
+
+* Deep Learning
+* Computer Vision
+* Transfer Learning
+* FastAPI Deployment
+* Frontend Integration
+* End-to-End AI Application Development
+
+The project is considered feature complete.
 
 ---
 
 # 👨‍💻 Author
 
-## Umanda Thathsarani
+## Mummullage Binuri Umanda Thathsarani
 
 Bachelor of Science (Hons) in Information Technology
 
 Specialized in Artificial Intelligence
-
-### Connect With Me
 
 GitHub: https://github.com/umandathathsarani
 
@@ -534,11 +497,9 @@ GitHub: https://github.com/umandathathsarani
 
 If you found this project useful:
 
-⭐ Star the repository
-
-🍴 Fork the repository
-
-📢 Share it with others
+* Star the repository
+* Fork the repository
+* Share it with others
 
 ---
 
@@ -546,4 +507,4 @@ If you found this project useful:
 
 This project is licensed under the MIT License.
 
-Feel free to use, modify, and distribute this project for educational and research purposes.
+See the LICENSE file for more information.
