@@ -428,6 +428,9 @@ Inspired by loyalty and dedication.
 
 # 📸 Screenshots
 
+## Application Interface (Ready for Upload)
+![Initial State](assets/app-initial-state.png)
+
 ## Hogwarts Theme
 
 ![Hogwarts Theme](assets/theme-hogwarts.png)
