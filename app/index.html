@@ -15,7 +15,8 @@
     <div class="upload-area" onclick="document.getElementById('fileInput').click()">
         <div class="upload-icon">🍃</div>
         <div id="uploadText" style="font-weight: 500; color: #7f8c8d;">Click to select or drop leaf photo</div>
-        <input type="file" id="fileInput" accept="image/*">
+        <label for="fileInput" style="position:absolute;left:-9999px;">Upload leaf image</label>
+        <input type="file" id="fileInput" accept="image/*" title="Select a leaf image file" aria-label="Upload leaf image">
         <img id="preview" alt="Leaf image preview">
     </div>
 
