@@ -56,6 +56,11 @@ predictBtn.addEventListener('click', async function() {
         // Render target diagnosis details with formatted spacing strings
         diseaseOutput.innerText = data.disease.replace(/___/g, ' - ').replace(/_/g, ' ');
         confidenceOutput.innerText = `Confidence Level: ${data.confidence}%`;
+
+        // Populate the treatment text
+        const treatmentOutput = document.getElementById('treatmentOutput');
+        treatmentOutput.innerText = data.treatment;
+
         resultPanel.style.display = 'block';
     } catch (error) {
         alert('Error running inference: ' + error.message);
