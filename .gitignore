@@ -10,3 +10,6 @@ data/raw/
 # IDE files
 .vscode/
 __pycache__/
+
+# ZIP files
+*.zip
